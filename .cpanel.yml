@@ -2,10 +2,11 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/rajz/public_html/
-    - /bin/cp -R index.html $DEPLOYPATH
-    - /bin/cp -R 5rajzrol $DEPLOYPATH
-    - /bin/cp -R ajanlatok $DEPLOYPATH
-    - /bin/cp -R arak $DEPLOYPATH
-    - /bin/cp -R elerhetoseg $DEPLOYPATH
-    - /bin/cp -R magamrol $DEPLOYPATH
-    - /bin/cp -R rajzelemzesrol $DEPLOYPATH
+    #- /bin/cp -R index.html $DEPLOYPATH
+    #- /bin/cp -R 5rajzrol $DEPLOYPATH
+    #- /bin/cp -R ajanlatok $DEPLOYPATH
+    #- /bin/cp -R arak $DEPLOYPATH
+    #- /bin/cp -R elerhetoseg $DEPLOYPATH
+    #- /bin/cp -R magamrol $DEPLOYPATH
+    #- /bin/cp -R rajzelemzesrol $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
