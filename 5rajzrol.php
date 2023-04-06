@@ -8,7 +8,7 @@
     <title>5rajzról</title>
 
     <?php include('includes/links.php') ?>
-    <link rel="stylesheet" href="css/5rajzrol/5rajzrol.css">
+    <link rel="stylesheet" href="css/leirasok/leiras.css">
 </head>
 
 <body>
