@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,EAAE,CAAC;EACC,UAAU,EAAE,MAAM;CACrB;;AAED,AAAA,CAAC,CAAC;EACE,UAAU,EAAE,OAAO;EACnB,aAAa,EAAE,GAAG;CAKrB;;AAPD,AAII,CAJH,CAIG,IAAI,CAAC;EACD,WAAW,EAAE,IAAI;CACpB",
+    "sources": [
+        "5rajzrol.scss"
+    ],
+    "names": [],
+    "file": "5rajzrol.css"
+}
