@@ -1,0 +1,14 @@
+
+
+p.center {
+    text-align: center;
+}
+
+.ar {
+    font-weight: bold;
+    color: var(--pale-red);
+}
+
+main {
+    gap: 20px !important;
+}
