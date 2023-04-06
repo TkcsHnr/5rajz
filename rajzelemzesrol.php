@@ -18,7 +18,7 @@
         </header>
 
         <script>
-            document.getElementById('magamrol').classList.add('active');
+            document.getElementById('rajzelemzesrol').classList.add('active');
         </script>
 
         <main>
