@@ -21,7 +21,7 @@
             <div class="first">
                 <img src="resources/ceruza.png" alt="szofelho" class="ceruza">
                 <div class="right">
-                    <img src="resources/portre_transparent.png" alt="judit" class="judit">
+                    <img src="resources/nyito_portre.png" alt="judit" class="judit">
                     <p>
                         Szeretne többet tudni önmagáról? <br>
                         Szeretné jobban megismerni a párját?<br>

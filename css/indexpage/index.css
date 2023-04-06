@@ -29,7 +29,7 @@ div.first div.right {
 }
 
 div.first div.right img {
-  width: 250px;
+  width: 225px;
   margin-bottom: -10px;
   border-bottom: 3px solid var(--pale-red);
 }
