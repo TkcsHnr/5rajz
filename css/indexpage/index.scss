@@ -14,8 +14,15 @@ div.first {
         margin-left: -700px;
         img {
             width: 225px;
-            margin-bottom: -10px;
-            border-bottom: 3px solid var(--pale-red);
+            margin-bottom: -6px;
+            margin-right: 10px;
+            position: relative;
+            z-index: 1;
+        }
+        .line {
+            width: 250px;
+            border-bottom: 4px solid var(--pale-red);
+            border-radius: 2px;
         }
         p {
             font-size: 15px;
