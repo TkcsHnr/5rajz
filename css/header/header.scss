@@ -13,24 +13,19 @@ nav {
 
   display: flex;
   align-items: center;
-  gap: 7.5px;
+  gap: 6px;
 
   color: var(--light-gray);
   height: 25px;
   line-height: 25px;
 
-  transition: .4s ease-in-out;
-
   img {
-    margin-top: -2px;
+    margin-top: -3px;
     height: 25px;
   }
 
   &:hover {
     color: var(--dark-gray);
-    
-      transform: scale(1.05);
-    
   }
 }
 
@@ -49,7 +44,8 @@ ul.menu {
     display: inline-block;
     margin-right: 10px;
     transition: all 0.3s ease-in-out;
-    &:hover, &.active {
+    &:hover,
+    &.active {
       a {
         color: var(--pale-red);
         &::before {
@@ -83,5 +79,6 @@ ul.menu {
   }
 }
 
-
-.submenu {display: none;}
+.submenu {
+  display: none;
+}

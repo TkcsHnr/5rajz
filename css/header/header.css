@@ -23,23 +23,19 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 7.5px;
+  gap: 6px;
   color: var(--light-gray);
   height: 25px;
   line-height: 25px;
-  -webkit-transition: .4s ease-in-out;
-  transition: .4s ease-in-out;
 }
 
 .goback img {
-  margin-top: -2px;
+  margin-top: -3px;
   height: 25px;
 }
 
 .goback:hover {
   color: var(--dark-gray);
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
 }
 
 .logo img {
