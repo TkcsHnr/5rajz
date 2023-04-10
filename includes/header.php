@@ -1,4 +1,8 @@
 <nav>
+    <a href="https://www.5rajz.hu" class="goback">
+        <img src="../resources/back.png" alt="">
+        Vissza a főoldalra!
+    </a>
     <a href="http://www.5rajz.hu" class="logo">
         <img src="../resources/logo.png" alt="logo">
     </a>

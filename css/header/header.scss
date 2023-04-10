@@ -5,6 +5,35 @@ nav {
   padding: 10px;
 }
 
+.goback {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 10px;
+
+  display: flex;
+  align-items: center;
+  gap: 7.5px;
+
+  color: var(--light-gray);
+  height: 25px;
+  line-height: 25px;
+
+  transition: .4s ease-in-out;
+
+  img {
+    margin-top: -2px;
+    height: 25px;
+  }
+
+  &:hover {
+    color: var(--dark-gray);
+    
+      transform: scale(1.05);
+    
+  }
+}
+
 .logo {
   img {
     height: 275px;
