@@ -2,6 +2,22 @@ div.first {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.first div.inside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -10,11 +26,11 @@ div.first {
           align-items: flex-end;
 }
 
-div.first img.ceruza {
+div.first div.inside img.ceruza {
   width: 500px;
 }
 
-div.first div.right {
+div.first div.inside div.right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,7 +44,7 @@ div.first div.right {
   margin-left: -700px;
 }
 
-div.first div.right img {
+div.first div.inside div.right img {
   width: 225px;
   margin-bottom: -6px;
   margin-right: 10px;
@@ -36,15 +52,20 @@ div.first div.right img {
   z-index: 1;
 }
 
-div.first div.right .line {
+div.first div.inside div.right .line {
   width: 250px;
   border-bottom: 4px solid var(--pale-red);
   border-radius: 2px;
 }
 
-div.first div.right p {
-  font-size: 15px;
+div.first div.inside div.right p {
   text-align: right;
+  font-family: "Segoe Script";
+}
+
+div.first h2 {
+  text-transform: uppercase;
+  margin-bottom: 0;
 }
 
 div.ajanlas p {

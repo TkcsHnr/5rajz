@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 div.container {
     img {
-        width: 375px;
+        width: 360px;
         float: right;
         margin: 0;
         margin-left: 20px;
@@ -34,6 +36,7 @@ div.vegzet {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 75px;
 
     div {
@@ -41,7 +44,8 @@ div.vegzet {
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        gap: 20px;
+        width: fit-content;
+        gap: 30px;
 
         p {
             margin: 0;
@@ -49,11 +53,12 @@ div.vegzet {
 
         span {
             color: var(--pale-red);
+            margin-right: 5px;
         }
     }
 
     img {
-        width: 300px;
+        width: 275px;
         border: 2px solid var(--pale-red);
         border-radius: 2px;
     }
@@ -64,6 +69,8 @@ div.publikaciok {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+
+    font-family: Poppins;
 
     div {
         width: 100%;
@@ -78,7 +85,7 @@ div.publikaciok {
             img.link {
                 margin-right: 20px;
                 width: 60px;
-                transition: .3s ease;
+                transition: 0.3s ease;
             }
 
             &:hover img.link {

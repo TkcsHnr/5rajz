@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 div.container img {
-  width: 375px;
+  width: 360px;
   float: right;
   margin: 0;
   margin-left: 20px;
@@ -46,6 +47,9 @@ div.vegzet {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 75px;
 }
 
@@ -63,7 +67,10 @@ div.vegzet div {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  gap: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  gap: 30px;
 }
 
 div.vegzet div p {
@@ -72,10 +79,11 @@ div.vegzet div p {
 
 div.vegzet div span {
   color: var(--pale-red);
+  margin-right: 5px;
 }
 
 div.vegzet img {
-  width: 300px;
+  width: 275px;
   border: 2px solid var(--pale-red);
   border-radius: 2px;
 }
@@ -92,6 +100,7 @@ div.publikaciok {
       -ms-flex-align: center;
           align-items: center;
   gap: 20px;
+  font-family: Poppins;
 }
 
 div.publikaciok div {
@@ -119,8 +128,8 @@ div.publikaciok div a {
 div.publikaciok div a img.link {
   margin-right: 20px;
   width: 60px;
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 div.publikaciok div a:hover img.link {

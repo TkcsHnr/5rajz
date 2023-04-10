@@ -19,28 +19,31 @@
 
         <main>
             <div class="first">
-                <img src="resources/ceruza.png" alt="szofelho" class="ceruza">
-                <div class="right">
-                    <img src="resources/nyito_portre.png" alt="judit" class="judit">
-                    <div class="line"></div>
-                    <p>
-                        Szeretne többet tudni önmagáról? <br>
-                        Szeretné jobban megismerni a párját?<br>
-                        Szeretne ablakot nyitni a belső világra? <br>
-                        Szeretné jobban megismerni családtagjait?<br>
-                        Szeretné szorosabbra fűzni a kapcsolatait?<br>
-                        Szeretne többet tudni kamasz gyermekéről?<br>
-                        Szeretné megerősíteni a munkahelyi közösségét? <br>
-                        Szeretne egy jó közös élményt azokkal, akik fontosak?<br>
-                        Szeretné tisztábban látni mindazt, amit érez és gondol? <br>
-                        Szeretné megfogalmazni azt, amit nehéz szavakba önteni?
-                    </p>
+                <div class="inside">
+                    <img src="resources/ceruza.png" alt="szofelho" class="ceruza">
+                    <div class="right">
+                        <img src="resources/nyito_portre.png" alt="judit" class="judit">
+                        <div class="line"></div>
+                        <p>
+                            Szeretne többet tudni önmagáról? <br>
+                            Szeretné jobban megismerni a párját?<br>
+                            Szeretne ablakot nyitni a belső világra? <br>
+                            Szeretné szorosabbra fűzni a kapcsolatait?<br>
+                            Szeretne többet tudni kamasz gyermekéről?<br>
+                            Szeretné jobban megismerni a családtagjait?<br>
+                            Szeretné megerősíteni a munkahelyi közösségét? <br>
+                            Szeretne egy jó közös élményt azokkal, akik fontosak?<br>
+                            Szeretné tisztábban látni mindazt, amit érez és gondol? <br>
+                            Szeretné megfogalmazni azt, amit nehéz szavakba önteni? <br>
+                        </p>
+                    </div>
                 </div>
+                <h2>Akkor rajzoljon velem!</h2>
             </div>
 
             <div class="ajanlas">
                 <p>
-                    Akkor rajzoljon velem! A <span>Hortoványi-féle 5 szimbólum feladatsor</span> egy képzeletbeli utazás állomásain keresztül vezet a mélyebb önismeret felé. Rajztudástól teljesen függetlenül kínál kamaszoknak és felnőtteknek egyaránt játékos eszközt az önkifejezésre és a kommunikációra. Ha elég bátor hozzá, hogy felfedezze, mi is rejtőzik legbelül, akkor csak egy darab papírra, egy ceruzára, és az 5 szimbólum feladatsorra van szüksége, és már indulhat is a kaland! Hallgassa meg a rajzok személyes üzenetét.
+                   A <span>Hortoványi-féle 5 szimbólum rajzos feladatsor</span> egy képzeletbeli utazás állomásain keresztül vezet a mélyebb önismeret felé. Rajztudástól teljesen függetlenül kínál kamaszoknak és felnőtteknek egyaránt játékos eszközt az önkifejezésre és a kommunikációra. Ha elég bátor hozzá, hogy felfedezze, mi is rejtőzik legbelül, akkor csak egy darab papírra, egy ceruzára, és az 5 szimbólum feladatsorra van szüksége, és már indulhat is a kaland! Hallgassa meg a rajzok személyes üzenetét.
                 </p>
             </div>
 

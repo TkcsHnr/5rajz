@@ -1,12 +1,16 @@
-
+h2 {
+    margin-bottom: 0;
+}
 
 p.center {
+    margin-top: 0px;
     text-align: center;
 }
 
 .ar {
     font-weight: bold;
     color: var(--pale-red);
+    margin-top: 0;
 }
 
 main {

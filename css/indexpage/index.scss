@@ -1,33 +1,43 @@
 div.first {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
-
-    img.ceruza {
-        width: 500px;
-    }
-    
-    div.right {
+    align-items: center;
+    div.inside {
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: flex-end;
-        margin-left: -700px;
-        img {
-            width: 225px;
-            margin-bottom: -6px;
-            margin-right: 10px;
-            position: relative;
-            z-index: 1;
+
+        img.ceruza {
+            width: 500px;
         }
-        .line {
-            width: 250px;
-            border-bottom: 4px solid var(--pale-red);
-            border-radius: 2px;
+
+        div.right {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin-left: -700px;
+            img {
+                width: 225px;
+                margin-bottom: -6px;
+                margin-right: 10px;
+                position: relative;
+                z-index: 1;
+            }
+            .line {
+                width: 250px;
+                border-bottom: 4px solid var(--pale-red);
+                border-radius: 2px;
+            }
+            p {
+                text-align: right;
+                font-family: "Segoe Script";
+            }
         }
-        p {
-            font-size: 15px;
-            text-align: right;
-        }
+    }
+    h2 {
+        text-transform: uppercase;
+        margin-bottom: 0;
     }
 }
 
