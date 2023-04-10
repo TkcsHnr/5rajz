@@ -9,4 +9,16 @@ p {
     span {
         font-weight: bold;
     }
+
+    &.underline {
+        text-decoration: underline;
+    }
+}
+
+div.list {
+    span {
+        display: inline-block;
+        width: 25px;
+        color: var(--pale-red);
+    }
 }

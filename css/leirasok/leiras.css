@@ -10,4 +10,14 @@ p {
 p span {
   font-weight: bold;
 }
+
+p.underline {
+  text-decoration: underline;
+}
+
+div.list span {
+  display: inline-block;
+  width: 25px;
+  color: var(--pale-red);
+}
 /*# sourceMappingURL=leiras.css.map */
