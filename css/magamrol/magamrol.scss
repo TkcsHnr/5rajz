@@ -5,7 +5,7 @@ div.container {
         width: 360px;
         float: right;
         margin: 0;
-        margin-left: 20px;
+        margin-left: 15px;
         border: 2px solid var(--pale-red);
         border-radius: 2px;
     }
@@ -69,8 +69,6 @@ div.publikaciok {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-
-    font-family: Poppins;
 
     div {
         width: 100%;

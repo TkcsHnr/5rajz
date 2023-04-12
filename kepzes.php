@@ -22,7 +22,7 @@
         </script>
 
         <main>
-            <h2>
+            <h2 class="alone">
                 Bevezetés a rajzelemzés pedagógiai, nem terápiás célú felhasználásába
                 <br>(kiscsoportos gyakorlati képzés)
             </h2>

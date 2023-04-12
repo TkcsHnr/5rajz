@@ -21,9 +21,9 @@ div.first div.inside {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 div.first div.inside img.ceruza {
@@ -61,19 +61,28 @@ div.first div.inside div.right .line {
 div.first div.inside div.right p {
   text-align: right;
   font-family: "Segoe Script";
+  font-size: 17px;
+  letter-spacing: normal;
+  margin: 8px 0;
 }
 
-div.first h2 {
+div.first h3 {
   text-transform: uppercase;
   margin-bottom: 0;
+  text-align: right;
 }
 
 div.ajanlas p {
   text-align: justify;
+  margin: 0px;
 }
 
 div.ajanlas span {
   font-weight: bold;
+}
+
+div.felsorolas p {
+  margin: 0;
 }
 
 div.felsorolas h2 {

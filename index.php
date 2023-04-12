@@ -9,6 +9,7 @@
 
     <?php include('includes/links.php') ?>
     <link rel="stylesheet" href="css/indexpage/index.css">
+
 </head>
 
 <body>
@@ -17,6 +18,10 @@
             <?php include 'includes/header.php' ?>
         </header>
 
+        <script>
+            document.getElementById("goback").remove();
+        </script>
+        
         <main>
             <div class="first">
                 <div class="inside">
@@ -36,15 +41,9 @@
                             Szeretné tisztábban látni mindazt, amit érez és gondol? <br>
                             Szeretné megfogalmazni azt, amit nehéz szavakba önteni? <br>
                         </p>
+                        <h3>Akkor rajzoljon velem!</h3>
                     </div>
                 </div>
-                <h2>Akkor rajzoljon velem!</h2>
-            </div>
-
-            <div class="ajanlas">
-                <p>
-                   A <span>Hortoványi-féle 5 szimbólum rajzos feladatsor</span> egy képzeletbeli utazás állomásain keresztül vezet a mélyebb önismeret felé. Rajztudástól teljesen függetlenül kínál kamaszoknak és felnőtteknek egyaránt játékos eszközt az önkifejezésre és a kommunikációra. Ha elég bátor hozzá, hogy felfedezze, mi is rejtőzik legbelül, akkor csak egy darab papírra, egy ceruzára, és az 5 szimbólum feladatsorra van szüksége, és már indulhat is a kaland! Hallgassa meg a rajzok személyes üzenetét.
-                </p>
             </div>
 
             <div class="felsorolas">
@@ -56,6 +55,12 @@
                     <span>•</span> visszajelzés a rajzokban tükröződő problémákról<br>
                     <span>•</span> szülőkkel, nevelőkkel beszélgetés a gyerekekről a rajzok alapján<br>
                     <span>•</span> rajzelemzés gyakorlati képzések
+                </p>
+            </div>
+
+            <div class="ajanlas">
+                <p>
+                    A <span>Hortoványi-féle 5 szimbólum rajzos feladatsor</span> egy képzeletbeli utazás állomásain keresztül vezet a mélyebb önismeret felé. Rajztudástól teljesen függetlenül kínál kamaszoknak és felnőtteknek egyaránt játékos eszközt az önkifejezésre és a kommunikációra. Ha elég bátor hozzá, hogy felfedezze, mi is rejtőzik legbelül, akkor csak egy darab papírra, egy ceruzára, és az 5 szimbólum feladatsorra van szüksége, és már indulhat is a kaland! Hallgassa meg a rajzok személyes üzenetét.
                 </p>
             </div>
         </main>

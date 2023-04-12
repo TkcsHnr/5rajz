@@ -25,13 +25,13 @@ nav {
           align-items: center;
   gap: 6px;
   color: var(--light-gray);
-  height: 25px;
-  line-height: 25px;
+  height: 20px;
+  line-height: 20px;
 }
 
 .goback img {
-  margin-top: -3px;
-  height: 25px;
+  margin-top: -2px;
+  height: 20px;
 }
 
 .goback:hover {
@@ -47,6 +47,7 @@ ul.menu {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: bold;
+  font-family: "Segoe Script";
 }
 
 ul.menu li {
