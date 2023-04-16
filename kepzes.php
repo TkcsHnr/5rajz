@@ -22,10 +22,13 @@
         </script>
 
         <main>
-            <h2 class="alone">
-                Bevezetés a rajzelemzés pedagógiai, nem terápiás célú felhasználásába
-                <br>(kiscsoportos gyakorlati képzés)
-            </h2>
+            <div>
+                <h2 class="alone">
+                    Bevezetés a rajzelemzés pedagógiai, nem terápiás célú felhasználásába
+                </h2>
+                <p class="center">(kiscsoportos gyakorlati képzés)</p>
+            </div>
+
 
             <div>
                 <h2>A képzés célja és menete:</h2>
@@ -43,9 +46,9 @@
                 <h2>Témakörök: (részletes tematikát a jelentkezés után kapnak a résztvevők)</h2>
                 <div class="list">
                     <p><span>1.</span> Projektív rajz fogalma és az iskolai használat lehetőségei</p>
-                    <p><span>2.</span> A rajzfelvétel gyakorlata</p> 
-                    <p><span>3.</span> Tartalmi rajzelemzés</p> 
-                    <p><span>4.</span> Formai rajzelemzés</p> 
+                    <p><span>2.</span> A rajzfelvétel gyakorlata</p>
+                    <p><span>3.</span> Tartalmi rajzelemzés</p>
+                    <p><span>4.</span> Formai rajzelemzés</p>
                     <p><span>5.</span> Az 5-szimbólum feladatsor elméleti háttere, értelmezése, és gyakorlati használata</p>
                 </div>
             </div>

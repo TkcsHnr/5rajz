@@ -19,6 +19,11 @@ p.underline {
   text-decoration: underline;
 }
 
+p.center {
+  margin-top: 0px;
+  text-align: center;
+}
+
 div.list span {
   display: inline-block;
   width: 25px;
