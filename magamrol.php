@@ -26,7 +26,7 @@
                 <h2>Magamról</h2>
                 <div class="container">
                     <p>
-                        <img src="resources/portre.jpg" alt="portre">
+                        <img src="resources/portre_ul.jpg" alt="portre">
                         <span>Dr. Hortoványi Judit</span> vagyok. 1970-ben születtem, Vácon élek. 1992 óta tanítok földrajz - rajz szakos tanárként. 2009 óta a váci Piarista Gimnáziumban dolgozom általános iskolás és gimnazista diákokkal. 2013 és 2019 között részt vettem a tanárképzésben is az ELTE Tanító és Óvóképző Vizuális Nevelés Tanszékén, valamint a Moholy-Nagy Művészeti Egyetemen. <br>Évtizedek óta keresem az iskolai környezetben a vizuális nevelés önismeretet és önkifejezést segítő lehetőségeit. Ennek eredménye a <span>saját fejlesztésű 5-szimbólum rajzi feladatsor</span>, melyből 2017-ben summa cum laude doktoráltam az ELTE Neveléselméleti Doktori Iskolájában. Doktori disszertációm témája a feladatsor elméleti hátterének bemutatása, valamint a gyakorlati alkalmazás eredményességének és lehetőségeinek vizsgálata. <br>A saját fejlesztésű 5-szimbólum feladatsort majdnem 10 éve használom egyéni rajzfelvételek, önismereti kurzusok, páros, csoportos és családi rajzfelvételek során. Továbbá tartok munkahelyi és csapatépítő tréningeket, iskolai foglalkozásokat, valamint szakmai továbbképzést a feladatsor pedagógiai alkalmazásáról.
                     </p>
                 </div>

@@ -35,24 +35,24 @@ nav {
   }
 }
 
-ul.menu {
+.menu {
   text-align: center;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: bold;
   font-family: "Segoe Script";
+  padding: 5px;
+  position: relative;
   li {
     display: inline-block;
     margin-right: 10px;
     transition: all 0.3s ease-in-out;
-    &:hover,
-    &.active {
-      a {
-        color: var(--pale-red);
-        &::before {
-          visibility: visible;
-          transform: scale(1, 1);
-        }
+    &:hover > a,
+    &.active > a {
+      color: var(--pale-red);
+      &::before {
+        visibility: visible;
+        transform: scale(1, 1);
       }
     }
     a {
@@ -80,6 +80,20 @@ ul.menu {
   }
 }
 
+.dropdown:hover {
+  margin-bottom: 60px;
+
+  .submenu {
+    display: flex;
+  }
+}
+
 .submenu {
   display: none;
+  align-items: flex-end;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 30px;
+  padding-top: 20px;
 }
