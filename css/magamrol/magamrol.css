@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-div.container img {
-  width: 300px;
+div.container .portre {
+  height: 19rem;
   float: left;
   margin: 0;
-  margin-right: 15px;
+  margin-right: 1rem;
   border: 2px solid var(--pale-red);
   border-radius: 2px;
+}
+
+div.container #portre2 {
+  display: none;
 }
 
 div.container p {
@@ -50,7 +54,7 @@ div.vegzet {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 75px;
+  gap: 3rem;
 }
 
 div.vegzet div {
@@ -70,7 +74,7 @@ div.vegzet div {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  gap: 30px;
+  gap: 1.6rem;
 }
 
 div.vegzet div p {
@@ -83,7 +87,7 @@ div.vegzet div span {
 }
 
 div.vegzet img {
-  width: 275px;
+  width: 15rem;
   border: 2px solid var(--pale-red);
   border-radius: 2px;
 }
@@ -99,7 +103,7 @@ div.publikaciok {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 20px;
+  gap: 1.2rem;
 }
 
 div.publikaciok div {
@@ -121,12 +125,12 @@ div.publikaciok div p {
 }
 
 div.publikaciok div a {
-  height: 60px;
+  height: 3.5rem;
 }
 
 div.publikaciok div a img.link {
-  margin-right: 20px;
-  width: 60px;
+  margin-right: 1.2rem;
+  width: 3.5rem;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }

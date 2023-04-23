@@ -4,7 +4,7 @@
         Vissza a főoldalra!
     </a>
     <a href="http://www.5rajz.hu" class="logo">
-        <img src="../resources/logo.png" alt="logo">
+        <img src="../resources/logo_magyar.png" alt="logo">
     </a>
     <ul class="menu">
         <li id="magamrol"><a href="/magamrol">Magamról</a></li>

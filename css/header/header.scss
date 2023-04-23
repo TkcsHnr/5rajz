@@ -16,12 +16,12 @@ nav {
   gap: 6px;
 
   color: var(--light-gray);
-  height: 20px;
-  line-height: 20px;
+  height: 1rem;
+  line-height: 1rem;
 
   img {
     margin-top: -2px;
-    height: 20px;
+    height: 1rem;
   }
 
   &:hover {
@@ -31,14 +31,14 @@ nav {
 
 .logo {
   img {
-    height: 275px;
+    height: 15rem;
   }
 }
 
 .menu {
   text-align: center;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: .9rem;
   font-weight: bold;
   font-family: "Segoe Script";
   padding: 5px;
@@ -59,7 +59,7 @@ nav {
       color: var(--dark-gray);
       display: block;
       letter-spacing: 2px;
-      padding: 0 7px 0 7px;
+      padding: 0 3px 0 3px;
       margin: 0 0 10px;
       text-decoration: none;
       position: relative;
