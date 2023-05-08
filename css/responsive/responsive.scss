@@ -4,7 +4,7 @@
     }
     .fullscreen {
         margin: 0 !important;
-        padding: 2rem;
+        padding: 2rem !important;
         display: flex !important;
         flex-direction: column;
         justify-content: center;
@@ -22,6 +22,9 @@
         li {
             margin: 0 !important;
             width: 100%;
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
             a {
                 font-size: 1.1rem !important;
                 margin: 0 !important;
@@ -45,9 +48,11 @@
     .fullscreen.active {
         transform: translateX(0) !important;
     }
-
     .toggleIcon {
         display: flex !important;
+    }
+    .closeIcon {
+        margin-bottom: 1.5rem;
     }
 }
 

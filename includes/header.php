@@ -4,6 +4,7 @@
             <img src="../resources/back.png" alt="">
             Vissza a főoldalra!
         </a>
+        <div class="grow"></div>
         <button onclick="openMenu()" class="toggleIcon">
             <i class="fa-solid fa-bars fa-fw"></i>
         </button>
@@ -12,18 +13,22 @@
         <img src="../resources/logo_magyar.png" alt="logo">
     </a>
     <ul id="menu" class="menu fullscreen">
-        <button onclick="closeMenu()" class="toggleIcon">
-            <i class="fa-solid fa-xmark fa-fw"></i>
-        </button>
+        <li>
+            <button onclick="closeMenu()" class="toggleIcon closeIcon">
+                <i class="fa-solid fa-xmark fa-fw"></i>
+            </button>
+        </li>
         <li id="magamrol"><a href="/magamrol">Magamról</a></li>
         <li id="rajzelemzesrol"><a href="/rajzelemzesrol">Rajzelemzésről</a></li>
         <li id="5rajzrol"><a href="/5rajzrol">Az 5 rajzról</a></li>
         <li id="ajanlatok" class="dropdown">
             <a href="#" onclick="openSubmenu()">Ajánlatok</a>
             <ul id="submenu" class="submenu fullscreen">
-                <button onclick="closeSubmenu()" class="toggleIcon">
-                    <i class="fa-solid fa-xmark fa-fw"></i>
-                </button>
+                <li>
+                    <button onclick="closeSubmenu()" class="toggleIcon closeIcon">
+                        <i class="fa-solid fa-xmark fa-fw"></i>
+                    </button>
+                </li>
                 <li><a href="/egyeni">Egyéni rajzfelvétel</a></li>
                 <li><a href="/paros">Páros rajzfelvétel</a></li>
                 <li><a href="/kiscsoportos-csaladi">Kiscsoportos vagy családi rajzfelvétel</a></li>

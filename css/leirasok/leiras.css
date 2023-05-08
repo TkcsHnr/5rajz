@@ -29,4 +29,13 @@ div.list span {
   width: 25px;
   color: var(--pale-red);
 }
+
+p a {
+  color: var(--dark-gray);
+}
+
+i.elerhetoseg {
+  color: var(--pale-red);
+  margin-right: .3rem;
+}
 /*# sourceMappingURL=leiras.css.map */

@@ -23,4 +23,8 @@ footer p {
   font-size: .75rem;
   color: white !important;
 }
+
+footer p a {
+  color: white !important;
+}
 /*# sourceMappingURL=footer.css.map */
