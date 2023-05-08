@@ -22,7 +22,7 @@ body {
 
 :root {
   font-family: 'Bookman Old Style', sans-serif;
-  font-size: 18px;
+  font-size: 19px;
   /* colors */
   --red: #BA1717;
   --dark-red: #a21919;
@@ -79,21 +79,22 @@ p {
 }
 
 h1 {
-  font-size: 2rem;
-}
-
-h2 {
   font-size: 1.5rem;
 }
 
+h2 {
+  font-size: 1.3rem;
+}
+
 h3 {
-  font-size: 1.17rem;
+  font-size: 1.1rem;
 }
 
 h1, h2, h3 {
   font-family: "Segoe Script", sans-serif;
   text-transform: uppercase;
   text-align: center;
+  color: var(--dark-gray);
 }
 
 ul {
@@ -102,5 +103,33 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+ul.lista {
+  list-style: none;
+  /* Remove default bullets */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: .5rem;
+}
+
+ul.lista li::before {
+  content: "\2022";
+  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: var(--pale-red);
+  /* Change the color */
+  font-weight: bold;
+  /* If you want it to be bold */
+  display: inline-block;
+  /* Needed to add space between the bullet and the text */
+  width: 1.5rem;
+  /* Also needed for space (tweak if needed) */
+  margin-left: -1.5rem;
+  /* Also needed for space (tweak if needed) */
 }
 /*# sourceMappingURL=general.css.map */

@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,EAAE,CAAC;EACC,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,IAAI;CACnB;;AACD,AAAA,IAAI,AAAA,IAAI,CAAC;EACL,KAAK,EAAE,eAAe,CAAC,UAAU;CACpC;;AACD,AAAA,UAAU,CAAC;EACP,eAAe,EAAE,SAAS;CAC7B",
     "sources": [
         "ajanlat.scss"
     ],

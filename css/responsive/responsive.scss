@@ -1,7 +1,54 @@
-@media screen and (max-width: 1150px) {
-    ul.menu {
-        display: none;
+@media screen and (max-width: 1250px) {
+    .fullscreen {
+        margin: 0 !important;
+        padding: 2rem;
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        align-items: center;
+        background-image: url("../../resources/pattern2.jpg");
+        background-repeat: repeat;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: translateX(-100%);
+        transition: .3s transform ease-in-out;
+
+        li {
+            margin: 0 !important;
+            width: 100%;
+            a {
+                font-size: 1.1rem !important;
+                margin: 0 !important;
+                &::before {
+                    content: none !important;
+                }
+            }
+        }
     }
+    ul.menu {
+        position: fixed;
+        z-index: 100;
+    }
+    .submenu {
+        position: fixed;
+        z-index: 200;
+    }
+    .dropdown:hover {
+        margin-bottom: 0 !important;
+    }
+    .fullscreen.active {
+        transform: translateX(0) !important;
+    }
+
+    .toggleIcon {
+        display: flex !important;
+    }
+}
+
+@media screen and (max-width: 1150px) {
     main {
         padding: 0 1.5rem;
     }
@@ -17,10 +64,6 @@
     header {
         width: 100% !important;
         position: relative;
-    }
-    .goback {
-        left: unset !important;
-        right: 0;
     }
 }
 
@@ -39,7 +82,7 @@
         }
     }
     :root {
-        font-size: 17px;
+        font-size: 18px;
     }
 }
 
@@ -56,7 +99,7 @@
 
 @media screen and (max-width: 650px) {
     :root {
-        font-size: 15px;
+        font-size: 17px;
     }
     #portre {
         display: none;
@@ -68,15 +111,18 @@
     .logo img {
         height: 12rem !important;
     }
+    .inside .right p {
+        font-size: 0.8rem !important;
+    }
 }
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 550px) {
     :root {
-        font-size: 13px;
+        font-size: 15.5px;
     }
 }
 
 @media screen and (max-width: 450px) {
     :root {
-        font-size: 12px;
+        font-size: 13.5px;
     }
 }

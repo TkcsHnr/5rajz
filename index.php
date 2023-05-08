@@ -49,12 +49,14 @@
             <div class="felsorolas">
                 <h2>Dr. Hortoványi Judit - Rajzelemzés</h2>
                 <p>
-                    <span>•</span> egyéni, páros, vagy csoportos rajzfelvétel<br>
-                    <span>•</span> tartalmi és formai rajzelemzés<br>
-                    <span>•</span> önismeretet segítő beszélgetés a rajzokról<br>
-                    <span>•</span> visszajelzés a rajzokban tükröződő problémákról<br>
-                    <span>•</span> szülőkkel, nevelőkkel beszélgetés a gyerekekről a rajzok alapján<br>
-                    <span>•</span> rajzelemzés gyakorlati képzések
+                    <ul class="lista">
+                        <li>egyéni, páros, vagy csoportos rajzfelvétel</li>
+                        <li>tartalmi és formai rajzelemzés</li>
+                        <li>önismeretet segítő beszélgetés a rajzokról</li>
+                        <li>visszajelzés a rajzokban tükröződő problémákról</li>
+                        <li>szülőkkel, nevelőkkel beszélgetés a gyerekekről a rajzok alapján</li>
+                        <li>rajzelemzés gyakorlati képzések</li>
+                    </ul>
                 </p>
             </div>
 

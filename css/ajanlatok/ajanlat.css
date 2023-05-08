@@ -1,1 +1,13 @@
-/* No CSS *//*# sourceMappingURL=ajanlat.css.map */
+h3 {
+  font-style: italic;
+  text-align: left;
+}
+
+span.red {
+  color: var(--pale-red) !important;
+}
+
+.underline {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=ajanlat.css.map */
