@@ -1,11 +1,13 @@
 <nav>
-    <button onclick="openMenu()" class="toggleIcon">
-        <i class="fa-solid fa-bars fa-fw"></i>
-    </button>
-    <a href="http://www.5rajz.hu" class="goback" id="goback">
-        <img src="../resources/back.png" alt="">
-        Vissza a főoldalra!
-    </a>
+    <div class="toprow">
+        <a href="http://www.5rajz.hu" class="goback" id="goback">
+            <img src="../resources/back.png" alt="">
+            Vissza a főoldalra!
+        </a>
+        <button onclick="openMenu()" class="toggleIcon">
+            <i class="fa-solid fa-bars fa-fw"></i>
+        </button>
+    </div>
     <a href="http://www.5rajz.hu" class="logo">
         <img src="../resources/logo_magyar.png" alt="logo">
     </a>

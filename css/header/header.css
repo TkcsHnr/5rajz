@@ -12,32 +12,6 @@ nav {
   padding: 10px;
 }
 
-.goback {
-  position: absolute;
-  left: 0;
-  top: 0;
-  margin: .75rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 6px;
-  color: var(--light-gray);
-  height: 1rem;
-  line-height: 1rem;
-}
-
-.goback img {
-  margin-top: -2px;
-  height: 1rem;
-}
-
-.goback:hover {
-  color: var(--dark-gray);
-}
-
 .logo img {
   height: 15rem;
 }
@@ -125,11 +99,47 @@ nav {
   display: none;
 }
 
-.toggleIcon {
+.toprow {
   position: absolute;
-  top: 0;
-  right: 0;
-  margin: .75rem;
+  top: .75rem;
+  left: 0;
+  width: 100%;
+  height: 2.25rem;
+  padding: 0 .75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.goback {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 6px;
+  color: var(--light-gray);
+  height: 1rem;
+  line-height: 1rem;
+}
+
+.goback img {
+  margin-top: -2px;
+  height: 1rem;
+}
+
+.goback:hover {
+  color: var(--dark-gray);
+}
+
+.toggleIcon {
   padding: 0;
   width: 2.25rem;
   height: 2.25rem;
