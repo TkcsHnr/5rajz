@@ -27,7 +27,7 @@
                 <p class="center"><a href="mailto:judit.hortovanyi@gmail.com"><i class="elerhetoseg fa-solid fa-envelope"></i> judit.hortovanyi@gmail.com</a></p>
 
                 <h3>Telefonszám:</h3>
-                <p class="center"><a href="tel:+36304186826"><i class="elerhetoseg fa-solid fa-phone"></i> +36304186826</a></p>
+                <p class="center"><a href="tel:+36304186826"><i class="elerhetoseg fa-solid fa-phone"></i> +36 (30) 418 6826</a></p>
             </div>
         </main>
 
