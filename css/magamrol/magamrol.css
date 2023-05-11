@@ -7,85 +7,51 @@ div.container .portre {
   border: 2px solid var(--pale-red);
   border-radius: 2px;
 }
-
 div.container #portre2 {
   display: none;
 }
-
 div.container p {
   margin: 0;
   text-align: justify;
 }
-
 div.container p br {
   display: block;
   content: " ";
   margin: 5px;
 }
-
 div.container p span {
   font-weight: bold;
 }
 
 main div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 div.vegzet {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   gap: 3rem;
 }
-
 div.vegzet div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  width: -webkit-fit-content;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   width: -moz-fit-content;
   width: fit-content;
   gap: 1.6rem;
 }
-
 div.vegzet div p {
   margin: 0;
 }
-
 div.vegzet div span {
   color: var(--pale-red);
   margin-right: 5px;
 }
-
 div.vegzet img {
   width: 15rem;
   border: 2px solid var(--pale-red);
@@ -93,50 +59,28 @@ div.vegzet img {
 }
 
 div.publikaciok {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   gap: 1.2rem;
 }
-
 div.publikaciok div {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  align-items: center;
 }
-
 div.publikaciok div p {
   margin: 0;
 }
-
 div.publikaciok div a {
   height: 3.5rem;
 }
-
 div.publikaciok div a img.link {
   margin-right: 1.2rem;
   width: 3.5rem;
-  -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
-
 div.publikaciok div a:hover img.link {
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
-}
-/*# sourceMappingURL=magamrol.css.map */
+  transform: scale(1.15);
+}/*# sourceMappingURL=magamrol.css.map */

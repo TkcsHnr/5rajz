@@ -33,14 +33,14 @@
             <div>
                 <h3>A csomag előnye:</h3>
                 <p>
-                <ul class="lista">
+                <ol class="lista">
                     <li>segíti a meglévő egyéni erősségek felismerését és tudatosítását</li>
                     <li>érzékelhetővé és egyértelművé teszi a közösségben rejlő lehetőségeket és erőforrásokat, mind szakmai, mind közösségi szinten</li>
                     <li>új szempontú megismerésén keresztül erősíti az összetartozás tudatát </li>
                     <li>a szimbólumok rajza segíti a feszültségekről és nehézségekről való kommunikációt, segít feltárni az esetleges hiányokat és meg nem oldott problémákat</li>
                     <li>a rajzolás folyamata és a rajzokról való beszélgetés felszabadító és stresszoldó hatású, mely az első lépést jelentheti a konstruktív megoldások keresése felé</li>
                     <li>a szimbólumok rajza segít feltárni a célokat, vágyakat, és a továbblépés lehetséges irányait</li>
-                </ul>
+                </ol>
                 </p>
             </div>
             <div>

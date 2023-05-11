@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.cdnfonts.com/css/segoe-script");
 @import url("https://fonts.cdnfonts.com/css/bookman-old-style");
 html, body {
@@ -8,8 +9,7 @@ html, body {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -21,7 +21,7 @@ body {
 }
 
 :root {
-  font-family: 'Bookman Old Style', sans-serif;
+  font-family: "Bookman Old Style", sans-serif;
   font-size: 19px;
   /* colors */
   --red: #BA1717;
@@ -37,37 +37,20 @@ div.bg {
   background-image: url("../../resources/pattern2.jpg");
   background-repeat: repeat;
   background-attachment: scroll;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 main {
   width: 1100px;
   padding: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   gap: 1.5rem;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
 }
-
 main div {
   width: 100%;
 }
@@ -105,31 +88,26 @@ a {
   text-decoration: none;
 }
 
-ul.lista {
-  list-style: none;
-  /* Remove default bullets */
-  display: -webkit-box;
-  display: -ms-flexbox;
+.lista {
+  list-style: none; /* Remove default bullets */
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: .5rem;
+  flex-direction: column;
+  gap: 0.5rem;
+  counter-reset: li;
+}
+.lista li {
+  counter-increment: li;
 }
 
-ul.lista li::before {
-  content: "\2022";
-  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: var(--pale-red);
-  /* Change the color */
-  font-weight: bold;
-  /* If you want it to be bold */
-  display: inline-block;
-  /* Needed to add space between the bullet and the text */
-  width: 1.5rem;
-  /* Also needed for space (tweak if needed) */
-  margin-left: -1.5rem;
-  /* Also needed for space (tweak if needed) */
+.lista li::before {
+  content: "•"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: var(--pale-red); /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1.5rem; /* Also needed for space (tweak if needed) */
+  margin-left: -1.5rem; /* Also needed for space (tweak if needed) */
 }
-/*# sourceMappingURL=general.css.map */
+
+.lista.numbered li::before {
+  content: counter(li) "." !important;
+}/*# sourceMappingURL=general.css.map */

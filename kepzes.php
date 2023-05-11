@@ -44,13 +44,13 @@
             </div>
             <div class="divcenter">
                 <h2>Témakörök: (részletes tematikát a jelentkezés után kapnak a résztvevők)</h2>
-                <div class="list">
-                    <p><span>1.</span> Projektív rajz fogalma és az iskolai használat lehetőségei</p>
-                    <p><span>2.</span> A rajzfelvétel gyakorlata</p>
-                    <p><span>3.</span> Tartalmi rajzelemzés</p>
-                    <p><span>4.</span> Formai rajzelemzés</p>
-                    <p><span>5.</span> Az 5-szimbólum feladatsor elméleti háttere, értelmezése, és gyakorlati használata</p>
-                </div>
+                <ol class="lista numbered">
+                    <li>Projektív rajz fogalma és az iskolai használat lehetőségei</li>
+                    <li>A rajzfelvétel gyakorlata</li>
+                    <li>Tartalmi rajzelemzés</li>
+                    <li>Formai rajzelemzés</li>
+                    <li>Az 5-szimbólum feladatsor elméleti háttere, értelmezése, és gyakorlati használata</li>
+                </ol>
             </div>
             <div>
                 <h2>Kinek ajánlom a képzést?</h2>

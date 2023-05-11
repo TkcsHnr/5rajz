@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,EAAE,CAAC;EACC,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,IAAI;CACnB;;AACD,AAAA,IAAI,AAAA,IAAI,CAAC;EACL,KAAK,EAAE,eAAe,CAAC,UAAU;CACpC;;AACD,AAAA,UAAU,CAAC;EACP,eAAe,EAAE,SAAS;CAC7B",
-    "sources": [
-        "ajanlat.scss"
-    ],
-    "names": [],
-    "file": "ajanlat.css"
-}
+{"version":3,"sources":["ajanlat.scss","ajanlat.css"],"names":[],"mappings":"AAAA;EACI,kBAAA;EACA,gBAAA;ACCJ;;ADCA;EACI,iCAAA;ACEJ;;ADAA;EACI,0BAAA;ACGJ","file":"ajanlat.css"}

@@ -1,71 +1,42 @@
 div.first {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
 div.first div.inside {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
-
 div.first div.inside img.ceruza {
   width: 27.5rem;
 }
-
 div.first div.inside div.right {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
   margin-left: -700px;
 }
-
 div.first div.inside div.right img {
   width: 12.5rem;
   margin-bottom: -6px;
   position: relative;
   z-index: 1;
 }
-
 div.first div.inside div.right .line {
   width: 12rem;
   border-bottom: 4px solid var(--pale-red);
   border-radius: 2px;
 }
-
 div.first div.inside div.right p {
   text-align: right;
   font-family: "Segoe Script";
-  font-size: .9rem;
+  font-size: 0.9rem;
   letter-spacing: normal;
   margin: 8px 0;
 }
-
 div.first h3 {
   margin-bottom: 0;
   text-align: right;
@@ -75,7 +46,6 @@ div.ajanlas p {
   text-align: justify;
   margin: 0px;
 }
-
 div.ajanlas span {
   font-weight: bold;
 }
@@ -83,8 +53,6 @@ div.ajanlas span {
 div.felsorolas p {
   margin: 0;
 }
-
 div.felsorolas span {
   color: var(--pale-red);
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

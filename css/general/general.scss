@@ -81,18 +81,27 @@ a {
     text-decoration: none;
 }
 
-ul.lista {
+.lista {
     list-style: none; /* Remove default bullets */
     display: flex;
     flex-direction: column;
     gap: .5rem;
+    counter-reset: li;
+
+    li {
+        counter-increment: li;
+    }
 }
 
-ul.lista li::before {
+.lista li::before {
     content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
     color: var(--pale-red); /* Change the color */
     font-weight: bold; /* If you want it to be bold */
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 1.5rem; /* Also needed for space (tweak if needed) */
     margin-left: -1.5rem; /* Also needed for space (tweak if needed) */
+}
+
+.lista.numbered li::before {
+    content: counter(li)"." !important;
 }

@@ -10,8 +10,7 @@
     <?php include('includes/links.php') ?>
 
     <link rel="stylesheet" href="css/leirasok/leiras.css">
-    <link rel="stylesheet" href="css/ajanlatok/ajanlat.
-    css">
+    <link rel="stylesheet" href="css/ajanlatok/ajanlat.css">
 
 </head>
 

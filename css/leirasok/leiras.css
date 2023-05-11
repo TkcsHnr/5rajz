@@ -10,11 +10,9 @@ p {
   text-align: justify;
   margin-bottom: 5px;
 }
-
 p span {
   font-weight: bold;
 }
-
 p.underline {
   text-decoration: underline;
 }
@@ -36,6 +34,5 @@ p a {
 
 i.elerhetoseg {
   color: var(--pale-red);
-  margin-right: .3rem;
-}
-/*# sourceMappingURL=leiras.css.map */
+  margin-right: 0.3rem;
+}/*# sourceMappingURL=leiras.css.map */
